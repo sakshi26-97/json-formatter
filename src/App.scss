@@ -1,0 +1,63 @@
+@import "~bootstrap/scss/bootstrap";
+
+.mode {
+    position: absolute;
+    right: 0.5rem;
+    top: 1rem;
+}
+
+.dark-mode {
+    background-color: black;
+    color: #FFFFFF;
+    .formatted-container {
+        border: 1px #FFFFFF solid;
+    }
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    height: 7rem;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+
+    textarea {
+        margin: 1rem;
+    }
+}
+
+.formatted-container {
+    border: 1px black solid;
+    margin: auto;
+    max-width: 50%;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    max-height: 28rem;
+    overflow: auto;
+    position: relative;
+
+    ul {
+        list-style-type: none;
+    }
+
+    .nested {
+        display: none;
+    }
+
+    .active {
+        display: block;
+    }
+}
+
+.error-msg {
+    text-align: center;
+}
+
+.copy-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 2px;
+}

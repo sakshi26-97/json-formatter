@@ -1,1 +1,3 @@
-# json-formatter
+# Steps to Run
+- npm install
+- npm start
