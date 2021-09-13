@@ -141,7 +141,7 @@ export default class App extends React.PureComponent<{}, State> {
                     <ul className="unordered-list">
                         {this.treeView(JSON.parse(jsonString), '')}
                     </ul>
-                    <div onClick={this.copyToClipboard} className="copy-icon"><i className="far fa-copy"></i></div>
+                    <div onClick={this.copyToClipboard} className="copy-icon" title="Copy to clipboard"><i className="far fa-copy"></i></div>
                 </div>);
             }
         }
