@@ -31,4 +31,4 @@ JSON formatter is React application developed similar to [jsonformatter](https:/
 `npm install`
 - Start the app using the command
 `npm start`
-- Once the app is running navigate to `http://localhost:4200`. The app will automatically reload if you change any of the source files.
+- Once the app is running navigate to `http://localhost:3000`. The app will automatically reload if you change any of the source files.
